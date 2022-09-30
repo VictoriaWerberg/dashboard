@@ -72,6 +72,7 @@ text-block{
 
 .card-block{
     border-right: 1px solid #e6edff;
+    padding: 20px;
 
 }
 
@@ -87,7 +88,10 @@ text-block{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    justify-content: right;
 }
 
 large-numbers{
@@ -101,7 +105,7 @@ text-block-2{
     color:#000
 }
 
-.text-block-3{
+.icon-block{
     margin-right: 10px;
     color: #7c8db5
 }
@@ -128,9 +132,6 @@ text-block-2{
 
 .nav-down{}
 .item{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom:25px;
     -webkit-box-align: center;
@@ -145,12 +146,10 @@ text-block-2{
     padding: 10px;
 }
 .cards{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;  
     display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
     margin-bottom: 25px;
-    padding: 10px;
     justify-content: space-around;
     border-style: solid;
     border-width: 1px;
@@ -165,7 +164,8 @@ text-block-2{
     display: -ms-flexbox;
     display: flex; 
 }
-.chart-block{}
+
+
 .diagram-block{}
 .table{
     margin-top: 25px;
@@ -192,4 +192,11 @@ text-block-2{
 
 .icon-block{
     justify-content: center;
+}
+
+.data-block{}
+
+.text-block-3{
+    color: #7c8db5;
+    font-size: 12px;
 }
