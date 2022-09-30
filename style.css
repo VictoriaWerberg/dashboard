@@ -76,6 +76,13 @@ text-block{
 
 }
 
+.card-block-last{
+    border-right: 0px solid #e6edff;
+    padding: 20px;
+
+}
+
+
 .data{
     display: -webkit-box;
     display: -webkit-flex;
@@ -91,7 +98,7 @@ text-block{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    justify-content: right;
+    margin-bottom: 15px;
 }
 
 large-numbers{
@@ -130,7 +137,7 @@ text-block-2{
     margin-bottom: 350px;
 }
 
-.nav-down{}
+
 .item{
     display: flex;
     margin-bottom:25px;
@@ -138,8 +145,17 @@ text-block-2{
     -ms-flex-align: center;
     align-items: center;
 }
-.title{}
-.title-block{}
+
+.item-active{
+    display: flex;
+    margin-bottom:25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 5px solid #347ae2;
+}
+
+
 .unit{
     margin-right: 30px;
     margin-left: 30px;
@@ -149,7 +165,7 @@ text-block-2{
     display: flex;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     justify-content: space-around;
     border-style: solid;
     border-width: 1px;
@@ -176,17 +192,11 @@ text-block-2{
     border-color: #e6edff;
     border-radius:  15px;
 }
-.list-titel{}
+
 .col-names{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
     border-bottom: 1px solid #e6edff;
+    justify-content: space-around;
 }
 
 
@@ -194,9 +204,13 @@ text-block-2{
     justify-content: center;
 }
 
-.data-block{}
+
 
 .text-block-3{
     color: #7c8db5;
     font-size: 12px;
+}
+
+.nav-frame{
+    border-right: 1px solid #e6edff;
 }
