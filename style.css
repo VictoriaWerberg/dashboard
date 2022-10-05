@@ -1,7 +1,9 @@
+body {
+    font-family: 'Poppins';
+}
+
+
 .main{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     padding: 55px;
 }
@@ -26,6 +28,10 @@
     font-size: 16;
 }
 
+.nav-text:hover{
+    color:#347ae2;
+}
+
 .nav-active-text{
     padding-left: 15px;
     color: #347ae2;
@@ -39,18 +45,12 @@
 }
 
 .title{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom: 65px;
     justify-content: space-between;
 }
 
 .user-block{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
 
@@ -84,16 +84,12 @@ text-block{
 
 
 .data{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
+    align-items: stretch;
+
 }
 
 .sub-data{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -125,9 +121,6 @@ text-block-2{
 }
 
 .list-title{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;  
 }
@@ -141,16 +134,12 @@ text-block-2{
 .item{
     display: flex;
     margin-bottom:25px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
 .item-active{
     display: flex;
     margin-bottom:25px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     border-right: 5px solid #347ae2;
 }
@@ -175,14 +164,10 @@ text-block-2{
 
 
 .charts{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex; 
 }
 
 
-.diagram-block{}
 .table{
     margin-top: 25px;
     margin-bottom: 20px;
