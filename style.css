@@ -21,15 +21,13 @@ body {
 }
 .link-block{
     margin-left: 25px;
+
 }
 .nav-text{
     width: 120px;
     padding-left: 15px;
     font-size: 16;
-}
-
-.nav-text:hover{
-    color:#347ae2;
+    color:#7c8db5
 }
 
 .nav-active-text{
@@ -58,6 +56,7 @@ body {
 
 .user-name{
     font-size: 16px;
+    padding-left: 10px;
 }
 
 .large-title{
@@ -65,45 +64,50 @@ body {
     font-size: 30px;
 }
 
-text-block{
+.text-block{
     color: #7c8db5;
     font-size: 16px;
 }
 
 .card-block{
     border-right: 1px solid #e6edff;
-    padding: 20px;
+    padding: 5px;
 
 }
 
 .card-block-last{
     border-right: 0px solid #e6edff;
-    padding: 20px;
+    padding: 5px;
 
 }
 
 
 .data{
-    display: flex;
-    align-items: stretch;
+    display:flex;
+    align-items: flex-start;
+}
 
+.data-block{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
 .sub-data{
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
-large-numbers{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.large-numbers{
     font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-text-block-2{
+.text-block-2{
     margin-bottom: 5px;
     color:#000
 }
@@ -114,6 +118,7 @@ text-block-2{
 }
 .chart-block{
     padding-right: 20px;
+    display: flex;
 }
 
 .medium-title{
@@ -137,6 +142,18 @@ text-block-2{
     align-items: center;
 }
 
+.link{
+text-decoration: none;
+color:#7c8db5
+
+}
+
+.item:link{
+    display: flex;
+    margin-bottom:25px;
+    align-items: center;
+    text-decoration: none;
+}
 .item-active{
     display: flex;
     margin-bottom:25px;
@@ -146,8 +163,8 @@ text-block-2{
 
 
 .unit{
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
     padding: 10px;
 }
 .cards{
@@ -159,7 +176,7 @@ text-block-2{
     border-style: solid;
     border-width: 1px;
     border-color: #e6edff;
-    border-radius:  15px;
+    border-radius:  10px;
 }
 
 
@@ -194,6 +211,8 @@ text-block-2{
 .text-block-3{
     color: #7c8db5;
     font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .nav-frame{
