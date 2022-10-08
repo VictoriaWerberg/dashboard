@@ -21,8 +21,9 @@ body {
 }
 .link-block{
     margin-left: 25px;
-
 }
+
+
 .nav-text{
     width: 120px;
     padding-left: 15px;
@@ -180,6 +181,16 @@ color:#7c8db5
 }
 
 
+.card-icon{
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    border-radius:20%;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ceddfc;
+    display: flex;
+}
 .charts{
     display: flex; 
 }
@@ -218,3 +229,57 @@ color:#7c8db5
 .nav-frame{
     border-right: 1px solid #e6edff;
 }
+
+@media screen  and (max-width:1000px){
+
+.main{
+    padding: 5px;
+    flex-wrap: nowrap;
+ }
+ .right{
+    padding-left: 10px;
+ }
+
+ .title{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    justify-content: space-between;
+ }
+
+ .cards{
+    display: flex;
+    direction: stretch;
+    justify-content:space-between;
+    padding-right: 5px;
+    padding-left: 5px;
+
+ }
+ .large-numbers{
+    font-size: 20px;
+ }
+
+ .left{
+    width: 150px;
+ }
+ .charts{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+ }
+ .chart-block{
+    width: auto;
+ }
+ .img-responsive{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+ }
+ .diagram-block{
+    width: auto;
+ }
+ .large-title{
+    margin-right: 10px;
+ }
+}
+
